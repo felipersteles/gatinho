@@ -2,15 +2,26 @@
 html, body{
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(75, 0, 145);
+    background-color: #4e0081;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 25px;
 }
 
 .gato{
     position: relative;
     height: 170px;
     width: 192px;
+    cursor: pointer;
 }
 
 .cara{
@@ -98,10 +109,10 @@ html, body{
     width: 20%;
     background: #161616;
     border-radius: 50%;
-    animation: lookaround 4s infinite;
+    animation: mexerOsZOIO 4s infinite;
 }
 
-@keyframes lookaround{
+@keyframes mexerOsZOIO{
     0%{
         transform: translate(0);
     }
@@ -208,4 +219,14 @@ html, body{
 
 .orelhadireita::after{
     transform: rotate(45deg);
+}
+
+.boca{
+    color: white;
+    position: relative;
+    top: 188px;
+    left: 15px;
+    font-size: 70px;
+
+    transform: rotate(90deg);
 }
